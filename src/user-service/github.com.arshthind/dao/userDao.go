@@ -14,7 +14,7 @@ var (
 )
 
 func init() {
-	ds, err = sql.Open("mysql", "root:root@tcp(localhost:3306)/e_comm")
+	ds, err = sql.Open("mysql", "user:password@tcp(hostname:port)/db")
 	if err != nil {
 		panic("DB initialization failed")
 	}
