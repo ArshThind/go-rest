@@ -9,10 +9,10 @@ import (
 type query string
 
 const (
-	GET_USERS   query = "F:\\golang\\src\\user-service\\github.com.arshthind\\resources\\queries\\get-user-query.sql"
-	ADD_USER    query = "F:\\golang\\src\\user-service\\github.com.arshthind\\resources\\queries\\add-user-query.sql"
-	DELETE_USER query = "F:\\golang\\src\\user-service\\github.com.arshthind\\resources\\queries\\delete-user-query.sql"
-	UPDATE_USER query = "F:\\golang\\src\\user-service\\github.com.arshthind\\resources\\queries\\update-user-query.sql"
+	GET_USERS   query = "Absolute path to sql file"
+	ADD_USER    query = "Absolute path to sql file"
+	DELETE_USER query = "Absolute path to sql file"
+	UPDATE_USER query = "Absolute path to sql file"
 )
 
 var queries = make(map[query]string)
